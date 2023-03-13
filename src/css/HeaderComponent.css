@@ -1,0 +1,26 @@
+
+li:hover
+{
+    background: #efefef;
+    transition: .5s;
+    border-radius: 10%;
+}
+li.active
+{
+    background: #000000;
+    transition: .5s;
+    border-radius: 10%;
+}
+.navbar-nav .nav-item .nav-link {
+    color: black !important;
+  }
+.navbar-brand{
+    color: black !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: black;
+  }
+  
+
+  

@@ -1,0 +1,114 @@
+
+  
+  .tasklist-container {
+    background-image: url('https://replicate.delivery/pbxt/hWyyC5O2ATL9OxceIMAlOoNtnN7a5VUqHPeKorj0AJcOEeGhA/out..jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+   
+  }
+  
+  .tasklist-heading {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .tasklist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tasklist-table th, .tasklist-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tasklist-table th {
+    background-color: rgba(137, 6, 126, 0.877);
+    color: white;
+  }
+  
+  .tasklist-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  .update-button,
+.delete-button {
+  background-color: rgba(137, 6, 126, 0.877);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.update-button:hover,
+.delete-button:hover {
+  opacity: 0.8;
+}
+.add-task-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.add-task-button:hover {
+  background-color: #3e8e41;
+}
+
+.add-task-form-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.add-task-form-container h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.add-task-form-container label {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.add-task-form-container input,
+.add-task-form-container textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-submit-button:hover {
+  background-color: #3e8e41;
+}

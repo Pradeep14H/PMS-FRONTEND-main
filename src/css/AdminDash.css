@@ -1,0 +1,28 @@
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left-nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left-nav-links li {
+    margin-bottom: 10px;
+  }
+  
+  .left-nav-links li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .left-nav-links li a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
